@@ -1,0 +1,23 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "This is workshop assignments from 2119583 Section 119\r ## testcases\r - Log-in success \r     - Wrong password\r     - Wrong username\r - Log-out success \r - Deposit success \r - Deposit fail \r     - Amounts over 100,000\r - Withdrawal success \r - Withdrawal fail \r     - Amnouts over 50,000\r - Transfer success\r - Transfer fail   \r     - Wrong Account number\r     - Wrong Account number is same as this account\r     - Amounts over 200,000\r     - Remark is over 50 characters\r - Deposit history is correct \r     - Amounts is correct\r     - The total number of deposits is correct\r - Withdrawal history is correct \r     - Amounts is correct\r     - The total number of withdrawals is correct\r - Transfer history is correct \r     - Amounts is correct\r     - The total number of Transfers is correct\r     - Destination account",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sippawit-qq/Playwright_assigment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sippawit-qq/Playwright_assigment/issues"
+  },
+  "homepage": "https://github.com/Sippawit-qq/Playwright_assigment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.1"
+  }
+}
