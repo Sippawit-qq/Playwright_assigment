@@ -1,7 +1,9 @@
 const { test, expect } = require('@playwright/test');
 
 test.beforeEach(async ({ page }) => {
-    await page.goto('https://atm-buddy-lite.lovable.app/');
+    await page.goto('https://atm-buddy-lite.lovable.app/', {
+    waitUntil: 'domcontentloaded',
+  });
 
     await page.getByPlaceholder('ตัวอย่าง: 123456').fill('468102');
     await page.getByPlaceholder('รหัส PIN 4 หลัก').fill('4681');
